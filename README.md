@@ -7,8 +7,7 @@ It's built to be a "technical" and heartfelt birthday card, combining synchroniz
 ## 🚀 Live Demo
 
 You can view the live website here:
-**[https://your-netlify-link.netlify.app](https://your-netlify-link.netlify.app)**
-*(Replace this with your actual Netlify link)*
+**[https://your-netlify-link.netlify.app](https://lorettapinto.netlify.app))**
 
 ---
 
@@ -60,6 +59,7 @@ You can view the live website here:
 ## 📁 Project Structure
 
 Here is how all the files are organized:
+
 ├── 📄 index.html (The main website structure)
 
 ├── 📄 style.css (All the styles and animations)
