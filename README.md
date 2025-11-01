@@ -7,7 +7,7 @@ It's built to be a "technical" and heartfelt birthday card, combining synchroniz
 ## 🚀 Live Demo
 
 You can view the live website here:
-**[https://your-netlify-link.netlify.app](https://lorettapinto.netlify.app))**
+**[https://your-netlify-link.netlify.app](https://lorettapinto.netlify.app)**
 
 ---
 
