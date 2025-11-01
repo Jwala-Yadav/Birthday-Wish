@@ -1,0 +1,197 @@
+/* --- NEW: ATTRACTIVE WELCOME SCREEN STYLES --- */
+#welcome-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #6a0015, #d90429);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#start-button {
+    padding: 25px 45px;
+    font-size: 1.2em; /* Better for mobile */
+    font-weight: bold;
+    color: #d90429; /* Red text */
+    background: #ffffff; /* White card */
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px #fff, 0 0 30px #ffb3c1;
+    animation: sparkle 2s infinite ease-in-out;
+}
+
+#start-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #fff, 0 0 45px #ffb3c1;
+}
+
+@keyframes sparkle {
+    0% {
+        box-shadow: 0 0 20px #fff, 0 0 30px #ffb3c1;
+    }
+    50% {
+        box-shadow: 0 0 35px #fff, 0 0 50px #ffb3c1;
+    }
+    100% {
+        box-shadow: 0 0 20px #fff, 0 0 30px #ffb3c1;
+    }
+}
+
+/* --- EXISTING STYLES --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #fdfbfb;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    position: relative;
+}
+
+/* Music Button Style (Targets the correct ID) */
+#pause-music-btn {
+    position: static;
+    margin: 15px auto 0;
+    display: block;
+    width: fit-content;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d90429;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#pause-music-btn:hover {
+    background-color: #b30021;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    margin-bottom: 15px;
+}
+header h1 { color: #d90429; font-size: 2em; margin-bottom: 0; }
+header p { font-size: 1em; color: #555; margin-top: 5px; }
+
+
+/* Slideshow Container */
+.slideshow-container {
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 100%; /* For your square images */
+    position: relative;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+}
+
+/* Slide Styles */
+.slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+/* Dynamic Wishes Section */
+.wishes-section {
+    text-align: center;
+    margin: 20px 0;
+}
+.wishes-section h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+#dynamic-wishes {
+    font-size: 1.1em;
+    color: #d90429;
+    font-weight: 500;
+    min-height: 40px;
+}
+
+.ti-cursor { color: #333; }
+
+/* Footer */
+footer {
+    text-align: right;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #f0f0f0;
+}
+footer p { margin: 5px 0; font-size: 1em; color: #444; }
+footer .signature {
+    font-weight: bold;
+    font-family: 'Brush Script MT', 'cursive';
+    font-size: 1.8em;
+    color: #d90429;
+    margin-right: 10px;
+    text-decoration: none; /* <-- ADD THIS LINE */
+}
+
+/* Confetti Canvas */
+#confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* --- Media Queries --- */
+@media (min-width: 768px) {
+    body { padding: 20px; }
+    .container { margin: 40px auto; padding: 20px; }
+
+    /* Music Button on Desktop */
+    #pause-music-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        margin: 0;
+        width: auto;
+        font-size: 0.9em;
+        padding: 10px 15px;
+    }
+
+    header h1 { font-size: 2.5em; }
+    header p { font-size: 1.2em; }
+    .slideshow-container { max-width: 700px; margin: 30px auto; }
+    .wishes-section h3 { font-size: 1.4em; }
+    #dynamic-wishes { font-size: 1.2em; min-height: 50px; }
+    footer p { font-size: 1.1em; }
+    footer .signature { font-size: 2em; margin-right: 20px; }
+}

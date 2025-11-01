@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Loretta Madam!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-screen">
+        <button id="start-button">A Special Wish For You... (Click to Open)</button>
+    </div>
+
+    <div id="main-content" style="display: none;">
+        <canvas id="confetti-canvas"></canvas>
+        <audio id="birthday-music" src="birthday-song.mp3" loop></audio>
+
+        <div class="container">
+            <button id="pause-music-btn">Pause Music ⏸️</button>
+
+            <header>
+                <h1>Happiest Birthday, Loretta Stanny Pinto Madam!</h1>
+                <p>(Jt. Director of SKC)</p>
+            </header>
+
+            <main>
+                <div class="slideshow-container">
+                    <img src="images/pic1.jpg.JPG" class="slide active" alt="Birthday Memory 1">
+                    <img src="images/pic2.jpg.JPG" class="slide" alt="Birthday Memory 2">
+                    <img src="images/pic3.jpg.JPG" class="slide" alt="Birthday Memory 3">
+                    <img src="images/pic4.jpg.JPG" class="slide" alt="Birthday Memory 4">
+                    <img src="images/pic5.jpg.JPG" class="slide" alt="Birthday Memory 5">
+                    <img src="images/pic6.jpg.JPG" class="slide" alt="Birthday Memory 6">
+                    <img src="images/pic7.jpg.JPG" class="slide" alt="Birthday Memory 7">
+                    <img src="images/pic8.jpg.JPG" class="slide" alt="Birthday Memory 8">
+                    <img src="images/pic9.jpg.JPG" class="slide" alt="Birthday Memory 9">
+                    <img src="images/pic10.jpg.JPG" class="slide" alt="Birthday Memory 10">
+                </div>
+
+                <div class="wishes-section">
+                    <h3>A few special wishes for you:</h3>
+                    <p id="dynamic-wishes"></p>
+                </div>
+            </main>
+
+            <footer>
+                <p>With warmest wishes,</p>
+                <a href="https://jwala-yadav.netlify.app" target="_blank" class="signature">- Jwala Yadav</a>
+            </footer>
+        </div>
+    </div> <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.8.3/dist/index.umd.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
