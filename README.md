@@ -60,10 +60,10 @@ You can view the live website here:
 ## 📁 Project Structure
 
 Here is how all the files are organized:
-├── 📄 index.html (The main website structure) 
-├── 📄 style.css (All the styles and animations) 
-├── 📄 script.js (All the "technical" logic) 
-├── 🎵 birthday-song.mp3 (The background music file) 
+├── 📄 index.html (The main website structure)
+├── 📄 style.css (All the styles and animations)
+├── 📄 script.js (All the "technical" logic)
+├── 🎵 birthday-song.mp3 (The background music file)
 └── 📁 images/ ├── 🖼️ pic1.jpg.JPG ├── 🖼️ pic2.jpg.JPG └── ... (all 10+ images)
 
 ---
