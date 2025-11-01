@@ -29,10 +29,16 @@ You can view the live website here:
 ## 📸 Screenshots
 
 **The Welcome Screen:**
-![start](https://github.com/jwalayadav/birthday-repo/assets/...)
+![start](<img width="1919" height="838" alt="Screenshot 2025-11-01 212156" src="https://github.com/user-attachments/assets/8745bb58-b2b9-471d-b1c2-f9c3e08638e4" />)
 
 **The Main Page:**
-![main](https://github.com/jwalayadav/birthday-repo/assets/...)
+![main](<img width="582" height="887" alt="Screenshot 2025-11-01 212522" src="https://github.com/user-attachments/assets/4ae8f88e-f787-41f8-a886-ae84c3a4c3ec" />)
+
+**The Other Page:**
+![Other](<img width="588" height="867" alt="Screenshot 2025-11-01 212553" src="https://github.com/user-attachments/assets/93fb6eb1-cdff-4072-a902-cdd2eab55bee" />)
+
+**The Celebration Page:**
+![Celebration](<img width="587" height="792" alt="Screenshot 2025-11-01 212654" src="https://github.com/user-attachments/assets/91f8e0c6-6ec1-42b7-a660-c5a187abb692" />)
 
 
 ---
